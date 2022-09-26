@@ -215,8 +215,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 cursor: pointer;
-width: 70px;
-padding: 10px;
+width: 170%;
+/* background-color: red; */
+
 
   }
   .workss{
@@ -226,7 +227,8 @@ font-weight: 400;
 font-size: 20px;
 cursor: pointer;
 width: 140%;
-padding: 10px;
+/* background-color: blue; */
+margin-left: 20%;
 
   }
   .garr{
