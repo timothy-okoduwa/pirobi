@@ -83,7 +83,7 @@ a {
 .hamburger {
   display:block;
   cursor: pointer;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .bar {
@@ -119,7 +119,7 @@ a {
  
     cursor: pointer;
     font-size: 30px;
-    padding-left: 10%;
+    padding-left: 5%;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -338,6 +338,8 @@ padding-top: 120px;
 .ceazy{
   background-image: url('../images/bgimage.svg');
   width: 100vw;
+
+
 }
 .scale{
   font-family: 'Fira Sans';

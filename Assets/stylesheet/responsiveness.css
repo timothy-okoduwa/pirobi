@@ -354,6 +354,20 @@ text-align: center;
         outline: none;
         color: #212123;
         }
+        .cuccess:hover{
+          width: 130px;
+        height: 50px;
+        background: #815AF0;
+        border-radius: 4px;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        }
         .copyright{
           font-family: 'Lexend';
         font-style: normal;
