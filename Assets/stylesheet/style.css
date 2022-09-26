@@ -4,6 +4,9 @@
   overflow-x: hidden;
 
 }
+.boww::-webkit-scrollbar {
+  display: none;
+}
 .uses{
   font-family: 'Lexend';
 font-style: normal;
@@ -226,12 +229,18 @@ width: 140%;
 padding: 10px;
 
   }
+  .garr{
+    /* background-color: rgb(252, 0, 239); */
+    margin-right: 50%;
+  }
   .navsss{
     z-index: 1;
     display: flex;
     font-family: "Fira Sans", sans-serif;
     width: 130%;
-    justify-content: space-around;
+    justify-content: center;
+    /* background-color: blue; */
+
    
 
   }
@@ -460,9 +469,9 @@ margin-top: 10px;
       scroll-snap-type: x mandatory;
   scrollbar-width: none;
 }
-.horizontal-scroll::-webkit-scrollbar {
+/* .horizontal-scroll::-webkit-scrollbar {
   display: none;
-}
+} */
 .horizontal-scroll__item {
   align-items: center;
   /* background-color: red; */
@@ -487,7 +496,7 @@ margin-top: 10px;
 .more{
   display: flex;
   justify-content: flex-end;
-  width: 80%;
+  width: 95%;
   cursor: pointer;
 }
 .SeeMore{
@@ -526,18 +535,24 @@ color: #000000;
   
 }
 .Each-icon{
-
-
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Each-icon:hover{
+cursor: pointer;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(0%);
+  transition: 0.5s;
 }
 
 
 .contact{
   background: #0F0F0F;
   color: #FFFFFF;
-  padding-top: 15%;
-  padding-bottom:15%;
+  padding-top: 5%;
+  padding-bottom:5%;
 }
 .touchh{
   font-family: 'Fira Sans';
@@ -575,6 +590,22 @@ text-align: center;
 border: none;
 outline: none;
 color: #212123;
+transition: 0.3s;
+}
+.cuccess:hover{
+  transition: 0.3s;
+  width: 150px;
+height: 56px;
+background: #815AF0;
+border-radius: 4px;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+border: none;
+outline: none;
+color: #ffffff;
 }
 .form-label{
   font-family: 'Lexend';
@@ -603,7 +634,7 @@ color: #FFFFFF;
 .foot{
   background: #0F0F0F;
   color: #FFFFFF;
-  padding-top: 5%;
+  /* padding-top: 5%; */
   padding-bottom:3%;
 }
 .burnt{
