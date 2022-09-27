@@ -680,6 +680,7 @@ color: #FFFFFF;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  cursor: pointer;
 }
 
 /* .kontainer:hover #myImg {
@@ -690,12 +691,13 @@ color: #FFFFFF;
 .kontainer:hover #myImg1 {
   transition: 0.4s ease;
   opacity: 0.22;
-
+cursor: pointer;
 }
 
 .kontainer:hover .middle {
   opacity: 1;
   transition: 0.6s ease;
+  cursor: pointer;
 }
 
 .text {
@@ -719,4 +721,9 @@ color: #FFFFFF;
 .kontainer {
   position: relative;
   width: 100%;
+}
+.closeup{
+ color: white;
+  font-size: 40px;
+  cursor: pointer;
 }
