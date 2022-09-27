@@ -672,7 +672,7 @@ text-align: center;
 color: #FFFFFF;
 }
 .middle {
-  transition: .5s ease;
+  transition: 0.6s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -682,19 +682,20 @@ color: #FFFFFF;
   text-align: center;
 }
 
-.kontainer:hover #myImg {
+/* .kontainer:hover #myImg {
 
   opacity: 0.22;
 
-}
+} */
 .kontainer:hover #myImg1 {
-
+  transition: 0.4s ease;
   opacity: 0.22;
 
 }
 
 .kontainer:hover .middle {
   opacity: 1;
+  transition: 0.6s ease;
 }
 
 .text {
