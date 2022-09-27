@@ -99,6 +99,16 @@
   
     color: #FFFFFF;
   }
+  .bak{
+    background-image: url('../images/baknoise.png');
+    color: white;
+    /* height: 100vh; */
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 15%;
+    padding-bottom:15%;
+    margin-bottom: 10%;
+  }
 
   .works{
     font-family: 'Lexend';
@@ -303,13 +313,10 @@ width: 30%;
           font-family: 'Fira Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 36px;
-      
+        font-size: 30px;
         display: flex;
-    
-        word-break: break-all;
-text-align: center;
- 
+        text-align: center;
+ margin-left: 4%;
         }
         .our{
           font-family: 'Lexend';
