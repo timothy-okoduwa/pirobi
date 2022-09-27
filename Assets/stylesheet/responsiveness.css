@@ -72,6 +72,33 @@
           
 }
 @media  screen and (max-width: 768px){
+  .text {
+ 
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .selection{
+    font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  .Brand{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
 
   .works{
     font-family: 'Lexend';
