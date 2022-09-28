@@ -72,6 +72,53 @@
           
 }
 @media  screen and (max-width: 768px){
+
+
+
+
+
+
+
+  .awesome{
+    font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #FFFFFF;
+  text-align: center;
+  }
+.clickkk{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.courses{
+  font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+color: #FFFFFF;
+text-align: center;
+}
+.rapid{
+  font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-top: 20px;
+text-align: center;
+width: 80%;
+word-break: keep-all;
+color: #FFFFFF;
+}
+.tapp{
+ display:flex;
+ justify-content:center;
+ flex-wrap: wrap;
+}
+
   .text {
  
     font-family: 'Fira Sans';
@@ -171,8 +218,8 @@ width: 100%;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-width: 80%;
-/* margin-top: 40px; */
+width: 100%;
+text-align: center;
 
 color: #FFFFFF;
   }
@@ -242,8 +289,10 @@ color: #FFFFFF;
         font-size: 44px;
         color: #FFFFFF;
         }
-
-
+.raww{
+  display: flex;
+  justify-content: center;
+}
         .itemHold:hover{
           background: #FFFEFE;
           height: 250px;
@@ -260,6 +309,8 @@ color: #FFFFFF;
           rgb(74, 14, 172) 50px 50px , 
           rgba(0, 0, 0, 0) 10px 10px,
           rgba(0, 0, 0, 0) 0 0;
+       
+       
         }
 
 
@@ -356,6 +407,7 @@ width: 30%;
         font-weight: 400;
         font-size: 16px;  
         color: #FFFFFF;
+        text-align: center;
         }
         .fotimput{
           font-family: 'Lexend';
