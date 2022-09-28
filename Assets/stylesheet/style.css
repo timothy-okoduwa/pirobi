@@ -42,8 +42,8 @@ color: #FFFFFF;
 .bold{
   font-family: 'Fira Sans';
   font-style: normal;
-  font-weight: 700;
-  font-size: 23px;
+  /* font-weight: 500; */
+  font-size: 20px;
   color: #FFFFFF;
 }
 .zigzag{
