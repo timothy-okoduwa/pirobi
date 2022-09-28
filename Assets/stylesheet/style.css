@@ -36,7 +36,7 @@ color: #FFFFFF;
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 50px;
   color: #FFFFFF;
 }
 .bold{
@@ -444,8 +444,8 @@ margin-top: 10px;
 }
 .whitespace{
   background-color: #ffffff;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding-top: 12%;
+  padding-bottom: 12%;
 }
 .our{
   font-family: 'Lexend';

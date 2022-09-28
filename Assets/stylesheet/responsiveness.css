@@ -74,7 +74,14 @@
 @media  screen and (max-width: 768px){
 
 
+.strong{
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
 
+}
 
 
 
@@ -94,14 +101,14 @@
   justify-content: center;
   margin-top: 50px;
 }
-.courses{
+/* .courses{
   font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 70px;
 color: #FFFFFF;
 text-align: center;
-}
+} */
 .rapid{
   font-family: "Lexend";
 font-style: normal;
@@ -202,6 +209,7 @@ padding: 10px;
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
+text-align: center;
 color: #FFFFFF;
   }
   .rapid{
@@ -399,6 +407,7 @@ width: 30%;
         font-style: normal;
         font-weight: 700;
         font-size: 44px;
+        text-align: center;
         color: #FFFFFF;
         }
         .cksos{
