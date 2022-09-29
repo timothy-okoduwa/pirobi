@@ -337,12 +337,12 @@ padding-top: 120px;
 .sect{
   background-color: #FFB62A;
   margin-top: 120px;
-  width: 100vw;
+  /* width: 100vw; */
 }
 .ceazy{
   background-image: url('../images/bgimage.svg');
   width: 100vw;
-
+background-size: cover;
 
 }
 .scale{
