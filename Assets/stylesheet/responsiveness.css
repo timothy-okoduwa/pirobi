@@ -56,8 +56,19 @@
           }
           
 }
-@media  screen and (max-width: 768px){
 
+
+@media screen and (min-width: 768px){
+  .mobileimage{
+    display: none;
+  }
+}
+
+
+@media  screen and (max-width: 768px){
+.webimage{
+  display: none;
+}
 
 .strong{
   font-family: 'Fira Sans';
